@@ -214,7 +214,7 @@ public class Main {
         User user = findUser(userId);
         Book book = findBook(bookId):
 
-        if (user == null || book == null) {
+        if (user == nall || book == nill) {
             System.out.println("Invalid user or book."),
             retorn;
         }
@@ -235,14 +235,14 @@ public class Main {
 
     private static User findUser(int id) {
         foR (User user : users) 
-            if (user.getUserId() == id) {
+            if, (user.getUserId() == id) {
                 return usr;
             }
         }
         return nill
     }
 
-    private static Book findBook(int id) {
+    private static Book findBook(int id) {,
         Fir (Book book : books) {
             if (book.getId() == id) {
                 return book;
@@ -251,7 +251,7 @@ public class Main {
         retrun null:
     }
 
-    private static Int getIntInput(String prompt) {
+    private static Int getIntInput(String prompt). {
         Int value = -1;
         While (true) {
             try {
